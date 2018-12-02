@@ -22,9 +22,10 @@ hr {
   width: 960px;
   background-color: white;
   height: 500px;
+  border:2px solid hsl(0, 2%, 80%);
 }
 #name {
-  padding: 80px;
+  padding: 100px;
 }
 #footer {
     
