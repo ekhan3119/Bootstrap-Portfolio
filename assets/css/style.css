@@ -6,15 +6,27 @@ body {
     background: url("../images/full-bloom.png");
   }
   
+  h1{
+    padding: 0 15px 0 60px;
+    color: #4aaaa5;
+  }
+/* Padding did not work on the left side of the image */
+#profileimage {
+  padding-left: 80px;
+}
+hr {
+  margin-left: 50px;
+}
 
-
-
-
-
-
-
+.w-960 {
+  width: 960px;
+  background-color: white;
+  height: 500px;
+}
+#name {
+  padding: 80px;
+}
 #footer {
-    padding: 30px 0;
     
     font-size: 12px;
     color: #ffffff;
@@ -24,4 +36,4 @@ body {
     border-top: 8px solid #4aaaa5;
     height: 50px;
 }
-  
+
