@@ -15,7 +15,7 @@ body {
   padding-left: 80px;
 }
 hr {
-  margin-left: 50px;
+  margin: 0px 50px 0 50px;
 }
 /* could not style it properly Please help me understand the styling logic for bootstrape*/
 .w-960 {
@@ -24,14 +24,25 @@ hr {
   height: 500px;
   border:2px solid hsl(0, 2%, 80%);
 }
+.navbar-brand{
+  padding: 20px;
+  background-color: #4aaaa5;
+  color:White;
+}
+li .nav-link{
+  color: #777777;
+}
 #name {
   padding: 100px;
+}
+#linestyle{
+  border: 1px solid #bebdbd;
+  
 }
 #footer {
     
     font-size: 12px;
     color: #ffffff;
-    color: #cccccc;
     text-align: center;
     background: #666666;
     border-top: 8px solid #4aaaa5;
